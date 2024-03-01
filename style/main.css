@@ -1,0 +1,29 @@
+
+.conteiner{
+  background-color: blueviolet;
+  height: 100vh;
+}
+
+.big_square{
+
+  background-color: beige;
+  width: 40%;
+  aspect-ratio: 1/1;
+
+}
+
+.small_square{
+
+  width: calc(100% / 10);
+  aspect-ratio: 1/1;
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.choosed{
+  background-color: black;
+  color: white;
+}
