@@ -32,8 +32,9 @@ function functionInsertSq (numero){
   const sq = document.createElement('div');
   sq.className = 'small_square';
 
+  
   sq.addEventListener('click', function(){
-
+    
     this.innerHTML = numero;
     this.classList.add('choosed');
 
@@ -52,11 +53,7 @@ function functionInsertSq (numero){
       if(score === 100 - maxBombs){
         endGame ('hai vinto');
       };
-
     };
-
-
-    console.log(bombs);
     
   });
 
